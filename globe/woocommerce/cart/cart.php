@@ -136,29 +136,25 @@ do_action( 'woocommerce_before_cart' ); ?>
                 ?>
 
                 <?php do_action( 'woocommerce_after_cart_contents' ); ?>
+                
+                   
                 </tbody>
             </table>
 
+                    <!-- <tr>
+                        <td colspan="4">  -->
+                            <div class="cart_page_spacer">
+                                <div>
+                                    <input type="submit" class="checkout-button btn btn-flat" id="checkout_update_button" name="update_cart" value="<?php _e( 'Update Shopping Cart', 'yit' ); ?>" /> 
+                                </div>
+                            </div>  
+                        
+                                    <!-- </td>
+                    </tr> -->
+
             <?php do_action( 'woocommerce_after_cart_table' ); ?>
 
-                <div class="row after-cart">
-
-                    <?php if ( wc_coupons_enabled() ) : ?>
-                        <div class="col-sm-12">
-                            <h3 class="head"><?php _e( 'Promotional code', 'yit' ); ?></h3>
-                            <table class="shop_table coupon" cellspacing="0">
-                                <tr>
-                                    <td>
-                                        <input type="text" name="coupon_code" class="input-text" id="coupon_code" value="" placeholder="<?php _e( 'Enter your promotional code', 'yit' ); ?>" />
-                                        <input type="submit" class="btn btn-flat" name="apply_coupon" value="<?php _e( 'Apply', 'yit' ); ?>" />
-
-                                        <?php do_action( 'woocommerce_cart_coupon' ); ?>
-                                    </td>
-                                </tr>
-                            </table>
-                        </div>
-                    <?php endif ?>
-                </div>
+               <!--- Coupon bocx went here -->
 
             <?php wp_nonce_field( 'woocommerce-cart', 'woocommerce-cart-nonce' ); ?>
         </div>
