@@ -1,0 +1,376 @@
+/* === Blog General === */
+
+#primary .sticky .yit_post_content {
+    border: 1px solid;
+}
+
+.page-template-blog-php #slogan{
+    padding-bottom: 0;
+}
+
+.blog h3.post-title a{
+    word-wrap: break-word;
+}
+
+.blog .post,
+.page-template-blog-php .post,
+.archive .post,
+.archive .content .blog.small,
+.search .post{
+    margin-bottom: 35px;
+}
+
+.blog.single .yit_post_meta_date{
+    width: 70px;
+    height: 85px;
+    text-align: center;
+    padding-top: 18px;
+    border: 1px solid;
+}
+
+.blog.single .yit_post_meta_date .day,
+.blog.single .yit_post_meta_date .month{
+    display: block;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.blog.single .yit_post_meta_date .day{
+    font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 14px;
+}
+
+.blog.single .yit_post_meta_date .month{
+    font-size: 14px;
+}
+
+.blog-single #trackbacks,
+.blog-single div#comments,
+.blog-single div#respond{
+    margin-bottom: 50px;
+}
+
+/* ================ */
+
+/* === Post Formats Icons === */
+
+.blog .yit_post_format_icon{
+    background: rgba(255, 255, 255, 0.7) url(../images/icons/blog/postformat_icons.png) no-repeat;
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    text-indent: -99999px;
+    display: none;
+}
+
+.format-video .blog .yit_post_format_icon{
+    display: block;
+    background-position: 50% -95px;
+}
+
+.format-audio .blog .yit_post_format_icon{
+    display: block;
+    background-position: 50% -25px;
+}
+
+
+.format-quote .blog .yit_post_format_icon{
+    display: block;
+    background-position: 50% -60px;
+}
+
+.format-standard .blog .yit_post_format_icon,
+.format-gallery .blog .yit_post_format_icon{
+    display: block;
+    background-position: 50% 9px;
+}
+
+/* ================ */
+
+/* === Blog Small === */
+
+.blog.small .post-wrapper{
+    border: 1px solid;
+    position: relative;
+}
+
+.blog.small .yit_post_meta{
+    padding: 15px;
+    border-top: 1px solid;
+}
+.blog.small .yit_post_content .author {
+    margin-bottom: 10px;
+    display: block;
+}
+.blog.small .yit_post_meta .yit_post_meta_date {
+    float: left;
+}
+.blog.small .yit_post_meta .comments {
+    float: right;
+}
+.blog.small .yit_post_meta .icon-comments {
+    font-size: 15px;
+    display: inline-block;
+    margin-right: 5px;
+}
+.blog.small .yit_post_meta a {
+    display: inline-block;
+    vertical-align: top;
+}
+.blog.small .yit_post_meta .categories {
+    display: block;
+    clear: both;
+}
+
+.post:not(.format-quote) .blog.small .no-thumbnail .yit_post_meta_date,
+.archive .blog.small .no-thumbnail .yit_post_meta_date{
+    position: relative;
+    top: 0;
+    left: 0;
+    float: left;
+    margin-top: 7px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+.blog.small h3.post-title a{
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.format-quote .blog.small h3.post-title a {
+    display: block;
+}
+
+.format-quote .blog.small .yit_post_meta_date {
+    margin-right: 7px;
+    float: left;
+}
+
+.blog.small .yit_post_format_icon{
+    top: 0;
+    left: 0;
+}
+
+.blog.small .yit_post_content,
+.format-quote .blog.small .yit_the_content {
+    margin-top: 15px;
+    padding: 15px;
+}
+.format-quote .blog.small .yit_the_content {
+    margin-top: 30px;
+}
+.format-quote .blog.small .post-title {
+    margin-top: 0;
+}
+.blog.small .yit_post_content .post-title {
+    text-align: left;
+    margin-top: 0;
+}
+.blog.small .yit_post_content p{
+    margin-bottom: 25px;
+    line-height: 24px;
+}
+.blog .sidebar-double .post:nth-child(2n+1),
+.page-template-blog-php .sidebar-double .post:nth-child(2n+1){
+    clear: left;
+}
+
+.blog .sidebar-right .post:nth-child(3n+1),
+.page-template-blog-php .sidebar-right .post:nth-child(3n+1),
+.blog .sidebar-left .post:nth-child(3n+1),
+.page-template-blog-php .sidebar-left .post:nth-child(3n+1){
+    clear: left;
+}
+
+.blog .sidebar-no .post:nth-child(4n+1),
+.page-template-blog-php .sidebar-no .post:nth-child(4n+1){
+    clear: left;
+}
+
+/* ================ */
+
+/* === Single Blog === */
+
+.blog.big.single{
+    margin-bottom: 25px;
+}
+
+.yit_the_content:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.blog dt{
+    font-weight: bold;
+}
+
+.blog input[type="submit"] {
+    padding: 7px;
+}
+
+.blog.big.single .thumbnail {
+    margin-bottom: 15px;
+}
+
+.blog.big.single .yit_post_content.title {
+    display: table;
+    width: 100%;
+    padding-bottom: 15px;
+    border-bottom: 1px solid;
+    margin-bottom: 20px;
+}
+
+.blog.big.single .yit_post_content.title .yit_post_meta_date {
+    display: table-cell;
+}
+
+.blog.big.single .yit_post_content.title .post-title{
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+
+.blog.big.single .yit_post_content.title .title-meta-wrapper{
+    margin-left: 22px;
+}
+
+.blog.big.single .yit_post_meta{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.blog.big.single .yit_post_meta.last_block {
+    border: 1px solid;
+    border-width: 1px 0;
+    padding: 15px 0 0;
+    line-height: 18px;
+    position: relative;
+}
+
+.blog.big.single .yit_post_meta.last_block .categories,
+.blog.big.single .yit_post_meta.last_block .tags {
+    display: block;
+}
+
+.blog.big.single .yit_post_meta .blog-meta {
+    float: left;
+}
+
+/*
+* ==== START Blog Share ====
+*/
+
+
+.blog.big.single .yit_post_meta .blog-share {
+    float: right;
+    list-style: none;
+}
+
+.blog.big.single .yit_post_meta .blog-share li {
+    display: inline;
+    margin-right: 2px;
+}
+
+.blog.big.single .yit_post_meta .blog-share li:last-child{
+    margin-right: 0;
+}
+
+.blog.big.single .yit_post_meta .blog-share li .social-square {
+    border: 1px solid;
+    text-align: center;
+    display: inline-block;
+    padding: 4px 5px;
+    font-size: 16px;
+    border-radius: 50%;
+}
+
+.blog.big.single .yit_post_meta .blog-share li .social-square.facebook {
+    padding: 4px 9px;
+}
+
+/*
+* ==== END Blog Share ====
+*/
+
+.blog.big.single .post-format.audio object {
+    margin-bottom: 0;
+}
+
+.format-quote .blog.big .yit_post_content .yit_the_content {
+    margin-top: 50px;
+}
+
+.format-quote .blog.big.single .yit_post_meta_date{
+    float: left;
+}
+
+.post.format-quote .blog.big.single .yit_post_content{
+    border: 0;
+}
+
+.format-quote .blog.big.single .yit_post_content.title .title-meta-wrapper {
+    margin: 0;
+    display: block;
+}
+
+.format-quote .blog.big.single .yit_post_meta.first_block{
+    text-align: center;
+}
+
+.format-quote .blog.big.single .yit_the_content {
+    padding: 0 100px;
+}
+
+.blog.big.single .masterslider {
+    visibility: hidden;
+    margin-bottom: 15px !important;
+}
+
+.blog.big.single .ms-view{
+    background: transparent;
+}
+
+/* ================ */
+
+
+.blog .thumbnail {
+    padding: 0;
+    margin-bottom: 0;
+    border: 0;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+    border-radius: 0;
+    line-height: normal;
+}
+
+/***********************
+* NO POST
+*********************/
+#post-0 p {
+    margin-bottom: 20px;
+}
+#post-0 div.searchform label {
+    font-weight: 400;
+    text-transform: uppercase;
+}
+#post-0 div.searchform div.search-wrapper input[type="text"] {
+    width: 100%;
+    margin-bottom: 10px;
+}
+#post-0 div.searchform input[type="submit"] {
+    float: right;
+}
+
+
+/***********************
+* SEARCH RESULT
+*********************/
+.search-result{
+    margin-bottom: 35px;
+}

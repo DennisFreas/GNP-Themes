@@ -1,0 +1,264 @@
+<wpml-config>
+    <custom-types>
+        <custom-type translate="1">logo</custom-type>
+        <custom-type translate="1">testimonial</custom-type>
+        <custom-type translate="1">sliders</custom-type> 
+        <custom-type translate="1">services</custom-type>
+        <custom-type translate="1">team</custom-type>  
+        <custom-type translate="1">faq</custom-type>  
+        <custom-type translate="1">contact-form</custom-type>
+        <custom-type translate="1">feature-tabs</custom-type>
+    </custom-types>
+    <admin-texts>
+        <key name="yit-panel-options_globe">
+            <key name="content-404-button-label" />
+            <key name="blog-read-more-text" />
+            <key name="footer-left-text" />
+            <key name="footer-right-text" />
+            <key name="footer-center-text" />
+            <key name="shop-add-to-cart-text" />
+            <key name="shop-view-details-text" />
+            <key name="shop-mini-cart-label-text" />
+            <key name="shop-inquiry-title" />
+        </key>
+        <key name="yit_sitemap_options">
+            <key name="sitemap-post-title" />
+            <key name="sitemap-archive-title" />
+            <key name="sitemap-product-title" />
+        </key>
+    </admin-texts>
+    <shortcodes>
+        <shortcode>
+            <tag>featured_column</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute>subtitle</attribute>
+                <attribute>show_button</attribute>
+                <attribute>label_button</attribute>
+                <attribute type="link">url_button</attribute>
+                <attribute type="link">background_image</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>box_section</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute type="link">link</attribute>
+                <attribute>link_title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>call_two</tag>
+            <attributes>
+                <attribute type="link">href</attribute>
+                <attribute>label_button</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>image_banner</tag>
+            <attributes>
+                <attribute>slogan</attribute>
+                <attribute>subslogan</attribute>
+                <attribute>label_button</attribute>
+                <attribute type="link">href</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>img</tag>
+            <attributes>
+                <attribute>alt</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>image</tag>
+            <attributes>
+                <attribute type="link">link</attribute>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>teaser</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute>subtitle</attribute>
+                <attribute type="link">link</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>price_table</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute type="link">href</attribute>
+                <attribute>buttontext</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>accordion</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute>Invalid_attribute</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>share</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>recentpost</tag>
+            <attributes>
+                <attribute>readmore</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>random_numbers</tag>
+            <attributes>
+                <attribute>text</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>counter</tag>
+            <attributes>
+                <attribute>text</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>price</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute type="link">href</attribute>
+                <attribute>buttontext</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>posts</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>popularpost</tag>
+            <attributes>
+                <attribute>readmore</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>numbers_sections</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>lastpost</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute>more_text</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>contact_info</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute>subtitle</attribute>
+                <attribute>address</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>box_title</tag>
+            <attributes>
+                <attribute>subtitle</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>button</tag>
+            <attributes>
+                <attribute type="link">href</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>progress_bar</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>banner</tag>
+            <attributes>
+                <attribute type="link">url</attribute>
+                <attribute>title</attribute>
+                <attribute>subtitle</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>social</tag>
+            <attributes>
+                <attribute type="link">href</attribute>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>newsletter_form</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute>description</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>newsletter_cta</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute>incipit</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>one_third</tag>
+        </shortcode>
+        <shortcode>
+            <tag>one_fourth</tag>
+        </shortcode>
+        <shortcode>
+            <tag>two_third</tag>
+        </shortcode>
+        <shortcode>
+            <tag>two_fourth</tag>
+        </shortcode>
+        <shortcode>
+            <tag>three_fourth</tag>
+        </shortcode>
+        <shortcode>
+            <tag>review_slider</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute>description</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>show_products</tag>
+        </shortcode>
+        <shortcode>
+            <tag>products_slider</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>products_tabs</tag>
+            <attributes>
+                <attribute>title_1</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>products_categories_slider</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>yit_add_to_cart</tag>
+            <attributes>
+                <attribute>id</attribute>
+            </attributes>
+        </shortcode>
+    </shortcodes>
+</wpml-config>

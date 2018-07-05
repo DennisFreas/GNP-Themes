@@ -1,0 +1,133 @@
+/**
+
+This is the custom.css file
+
+Add your own custom CSS here and avoid modifying the core theme files, 
+since that'll make upgrading the theme problematic. 
+
+Your custom CSS will be loaded after the theme's stylesheets, 
+which means that your rules will take precedence.
+
+*/
+.sidebar-with-border, .col-sm-9, .product-wrapper {
+    border: 1px solid;
+  	border-color:rgba(41,116,156,0.50) !important;
+    padding: 12px;
+    box-shadow: rgba(0,118,186,0.50) 2px 2px 12px;
+}
+
+#yith-s, #yith-searchsubmit {
+  width:100% !important;
+}
+
+#yith-s {
+  text-align: right !important;
+}
+
+.widget_product_search a.trigger-search {
+  font-size:18px;
+  padding-top:3px;
+}
+
+#header .widget_product_search {
+    width: 20px;
+    height: 20px;
+}
+
+#header #header-sidebar {
+  border: 0px !important;
+  padding: 0px !important;
+}
+.float_left-top {
+  float:left;
+  vertical-align:middle !important;
+  text-size:14px !important;
+}
+#welcome-menu > ul > li > a {
+  text-size: 12px !important;
+}
+
+#checkout_update_button {
+  float: right;
+  position: relative;
+  right: 10px;
+}
+
+.woocommerce table.shop_table.cart tbody {
+  padding-left: 8px;
+  padding-right: 8px;
+  border-bottom: 8px solid;
+  border-bottom-width: 8px;
+  border-bottom-style: solid;
+  border-color: #0076ba;
+}
+
+.woocommerce table.shop_table.cart {border-top: 8px solid;border-top-width: 8px;border-color: #0076ba;/* margin-right: 8px; */}
+
+.cart_page_spacer {
+margin-top: 2em;
+}
+
+.woocommerce .cart-collaterals .cart_totals table {
+  padding:6px;
+  margin-bottom: 0px !important;
+}
+
+.cart-collaterals,
+#review-order-wrapper {
+  border:1px solid;
+  border-color: #0076ba;    
+  box-shadow: rgba(0,118,186,0.80) 2px 2px 12px;
+}
+
+#header #header-container .header-wrapper {
+  padding: 0px 0 0;
+}
+
+#header #logo {
+  margin-bottom: 2px;
+}
+
+#header #nav {
+  border-top: 0px solid !important;
+  border-bottom: 0px solid;
+  /* border-bottom-color: #0076ba; */
+  /* box-shadow: rgba(0,118,186,0.80) 2px 2px 12px; */
+}
+.woocommerce table.shop_table.cart td.product-subtotal {
+  text-align: right;
+  padding-right: 20px;
+  font-weight: 700;
+}
+
+#go-to-checkout {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.col-sm-7.details,
+.col-sm-5,
+.col-2 {
+  border-top: 8px solid !important;
+  border-top-color: #0076ba !important;
+  padding: 10px !important;
+}
+.col-sm-5 {
+  padding: 20px !important;
+}
+.woocommerce-billing-fields label {
+  font-weight: bold  !important;
+  margin-left:6px;
+}
+
+.woocommerce-privacy-policy-text {
+  text-align: center !important;
+}
+.wc-yith_wcauthnet_credit_card_gateway-new-payment-method {
+  text-align: center !important;
+  font-size: 14px !important;
+  margin-left:20px;
+}
+.woocommerce-form #input-checkbox {
+  margin-left:20px;
+}
